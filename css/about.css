@@ -10,11 +10,22 @@ body{
     background-position-x: right;
     font-family: 'Open Sans';
 }
-p.menu{
+ul.menu{
     margin-top: 25px;
     text-align: right;
     background-color: rgb(255, 255, 255, 0.5);
-    padding: 20px 0;
+    padding: 20px 5px;
+}
+ul.menu li{
+    display: inline;
+    padding: 0px 10px;
+    border-left: 1px solid black;
+}
+ul.menu li:last-child{
+    border-right: 1px solid black;
+}
+ul.menu li a:hover{
+    color: grey;
 }
 a{
     color: black;
@@ -60,4 +71,22 @@ p.quoteline4{
     margin-left: 35px;
     margin-top: 20px;
     font-size: 15px;
+}
+.fa-twitter:hover{
+    color: lightblue;
+}
+.fa-facebook-square:hover{
+    color: blue;
+}
+.fa-spotify:hover{
+    color: lightgreen;
+}
+.fa-amazon:hover{
+    color: rgb(255, 255, 109);
+}
+.fa-instagram:hover{
+    color: lightpink;
+}
+.fa-apple:hover{
+    color: grey;
 }

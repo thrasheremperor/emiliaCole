@@ -10,9 +10,20 @@ a{
     color: black;
     text-decoration: none;
 }
-p.menu{
+ul.menu{
     margin-top: 25px;
     text-align: right;
+}
+ul.menu li{
+    display: inline;
+    padding: 0px 10px;
+    border-left: 1px solid black;
+}
+ul.menu li:last-child{
+    border-right: 1px solid black;
+}
+ul.menu li a:hover{
+    color: grey;
 }
 p.icons{
     margin-top: 40px;
@@ -42,8 +53,11 @@ h4{
     color: #1c9a85;
     margin-bottom: 20px;
 }
-ul a{
+ul.contact a{
     color: grey;
+}
+ul.contact a:hover{
+    color: black;
 }
 ul b{
     font-weight: normal;
@@ -51,4 +65,22 @@ ul b{
 }
 iframe{
     margin-bottom: 40px;
+}
+.fa-twitter:hover{
+    color: lightblue;
+}
+.fa-facebook-square:hover{
+    color: blue;
+}
+.fa-spotify:hover{
+    color: lightgreen;
+}
+.fa-amazon:hover{
+    color: rgb(255, 255, 109);
+}
+.fa-instagram:hover{
+    color: lightpink;
+}
+.fa-apple:hover{
+    color: grey;
 }

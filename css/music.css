@@ -9,11 +9,22 @@ body{
     font-family: "Open Sans";
     margin-left: 10px;
 }
-p.menu{
+ul.menu{
     margin-top: 25px;
     text-align: right;
     background-color: rgb(255, 255, 255, 0.5);
-    padding: 20px 0;
+    padding: 20px 5px;
+}
+ul.menu li{
+    display: inline;
+    padding: 0px 10px;
+    border-left: 1px solid black;
+}
+ul.menu li:last-child{
+    border-right: 1px solid black;
+}
+ul.menu li a:hover{
+    color: grey;
 }
 a{
     color: black;
@@ -34,8 +45,11 @@ ul.direct{
     margin-top: 25px;
     list-style: none;
 }
-ul li a{
+ul.direct li a{
     color: grey
+}
+ul.direct li a:hover{
+    color: black;
 }
 h2#album{
     font-family: 'Raleway';
@@ -63,5 +77,26 @@ p.two{
     margin-bottom: 20px;
 }
 .goTop{
+    color: grey;
+}
+.goTop:hover{
+    color: black;
+}
+.fa-twitter:hover{
+    color: lightblue;
+}
+.fa-facebook-square:hover{
+    color: blue;
+}
+.fa-spotify:hover{
+    color: lightgreen;
+}
+.fa-amazon:hover{
+    color: rgb(255, 255, 109);
+}
+.fa-instagram:hover{
+    color: lightpink;
+}
+.fa-apple:hover{
     color: grey;
 }
